@@ -1,0 +1,334 @@
+{
+  "project_info": {
+    "project_number": "665263979456",
+    "project_id": "expo-keith-test",
+    "storage_bucket": "expo-keith-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:85cfd573188373cdd76625",
+        "android_client_info": {
+          "package_name": "com.keith.expokitchensink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:3af184644d828fe0d76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.android13notificationissue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:ca9613732393ee2ad76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.devbuilds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:8ac9c846b642db73d76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.expofirebasemigration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:392c0ac7a1f92c0bd76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.firebaseupgrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:831a7911a9c7abafd76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.notificationthing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:c3c9784e99fc6b7fd76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.quotableexpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:1080e550ed9c45b3d76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.quotableexpo_devclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665263979456:android:7b1c3a97f7e57f73d76625",
+        "android_client_info": {
+          "package_name": "com.keithkurak.quotableexpo_preview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlKHUN1NMpS6NAPn1sXeKeZhg-HOkIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665263979456-ruck3tsag95d3khd7lql0lddl58auagk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665263979456-d3geip9dd00379su9t34h748t9i1a05e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.keithkurak.firebaseupgrade"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
