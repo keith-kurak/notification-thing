@@ -1,9 +1,43 @@
+import React from 'react';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+import * as Notifications from 'expo-notifications';
 import { useFonts } from 'expo-font';
-import { SplashScreen, Stack } from 'expo-router';
+import { SplashScreen, Stack, router } from 'expo-router';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
+
+function useNotificationObserver() {
+  React.useEffect(() => {
+    let isMounted = true;
+
+    function redirect(notification: Notifications.Notification) {
+      const url = notification.request.content.data?.url;
+      if (url) {
+        router.push(url);
+      }
+    }
+
+    // handles first notification when app is foregrounded
+    Notifications.getLastNotificationResponseAsync()
+      .then(response => {
+        if (!isMounted || !response?.notification) {
+          return;
+        }
+        redirect(response?.notification);
+      });
+
+    // handles subsequent notifications
+    const subscription = Notifications.addNotificationResponseReceivedListener(response => {
+      redirect(response.notification);
+    });
+
+    return () => {
+      isMounted = false;
+      subscription.remove();
+    };
+  }, []);
+}
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -23,6 +57,8 @@ export default function RootLayout() {
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     ...FontAwesome.font,
   });
+
+  useNotificationObserver();
 
   // Expo Router uses Error Boundaries to catch errors in the navigation tree.
   useEffect(() => {
