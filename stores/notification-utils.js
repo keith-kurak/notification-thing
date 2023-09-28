@@ -1,18 +1,25 @@
 import { useState, useEffect, useRef } from 'react';
-import { Text, View, Button, Platform } from 'react-native';
+import { Platform } from 'react-native';
 import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
 import Constants from "expo-constants";
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // Can use this function below or use Expo's Push Notification Tool from: https://expo.dev/notifications
-export async function sendPushNotification(expoPushToken) {
+export async function sendPushNotification(expoPushToken, delay = 0, title = 'My Title') {
   const message = {
     to: expoPushToken,
     sound: 'default',
-    title: 'Original Title',
-    body: 'And here is the body!',
+    title: title,
+    body: 'And here is the body! ' + Math.floor(Math.random() * 100),
     data: { someData: 'goes here' },
+    channelId: 'default',
   };
+
+  await sleep(delay);
 
   await fetch('https://exp.host/--/api/v2/push/send', {
     method: 'POST',
@@ -47,7 +54,7 @@ export async function registerForPushNotificationsAsync() {
   }
 
   if (Platform.OS === 'android') {
-    Notifications.setNotificationChannelAsync('default', {
+    await Notifications.setNotificationChannelAsync('default', {
       name: 'default',
       importance: Notifications.AndroidImportance.MAX,
       vibrationPattern: [0, 250, 250, 250],
@@ -64,8 +71,6 @@ export const useNotificationEvents = () => {
   const [notification, setNotification] = useState(false);
 
   useEffect(() => {
-    registerForPushNotificationsAsync().then(token => setExpoPushToken(token));
-
     notificationListener.current = Notifications.addNotificationReceivedListener(notification => {
       setNotification(notification);
     });
@@ -93,7 +98,7 @@ export const useNotifications = () => {
   const [expoPushToken, setExpoPushToken] = useState('');
 
   useEffect(() => {
-    registerForPushNotificationsAsync().then(token => setExpoPushToken(token));
+    registerForPushNotificationsAsync().then(token => setExpoPushToken(token ? token.data : null));
   }, []);
 
   const { lastNotificationReceived, lastNotificationResponse } = useNotificationEvents();
