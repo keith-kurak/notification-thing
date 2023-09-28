@@ -16,3 +16,6 @@ I wanted to focused on notifications selected from the background/ app closed st
 - [x] notification received in foreground
 - [x] notification selected from background
 - [x] notofication selected when app is shut down (starts app and the selected notification appears)
+## Next steps
+- Add deep linking
+- Compare the response received listener to `useLastNotificationResponse()`
