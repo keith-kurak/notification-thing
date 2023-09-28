@@ -13,29 +13,16 @@ export default function TabOneScreen() {
   return (
     <ScrollView>
       <Text style={styles.title}>Notification test info</Text>
-      <Button
-        title="Send notification now"
-        onPress={() => {
-          sendPushNotification(expoPushToken);
-        }}
-      />
-      <View style={styles.extraSpace} />
-       <Button
-        title="Send notification in 5 seconds"
-        onPress={() => {
-          sendPushNotification(expoPushToken, 5000, 'Delayed notification');
-        }}
-      />
       <View
         style={styles.separator}
         lightColor="#eee"
         darkColor="rgba(255,255,255,0.1)"
       />
-      <Text style={styles.subTitle}>Last notification received:</Text>
+      <Text style={styles.subTitle}>Last notification received (app foregrounded):</Text>
       <Text style={styles.debugInfo}>
         {JSON.stringify(lastNotificationReceived)}
       </Text>
-      <Text style={styles.subTitle}>Last notification response:</Text>
+      <Text style={styles.subTitle}>Last notification response (selected from background):</Text>
       <Text style={styles.debugInfo}>
         {JSON.stringify(lastNotificationResponse)}
       </Text>
